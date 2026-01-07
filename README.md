@@ -1,60 +1,79 @@
-# 📊 Stock Market Analysis Dashboard
+# 📊 Stock Market Performance & KPI Analysis Using SQL (MySQL)
 
 ## 📌 Project Overview
-
-This project focuses on **analyzing stock market data** and presenting meaningful insights through **interactive dashboards** created using **Excel, Power BI**.
-The objective of this project is to analyze stock price movements, trading volume, volatility, and key performance indicators (KPIs) to support **data-driven decision-making**.
+This project focuses on analyzing stock market data using **MySQL** to extract meaningful financial insights at company, sector, and monthly levels. The analysis helps understand trading behavior, price movements, and overall market performance using SQL queries.
 
 ---
 
-## 🛠️ Tools & Technologies Used
-
-* **Microsoft Excel** – Data cleaning, preprocessing.
-* **Power BI** – Interactive data visualization and KPI analysis
-
----
-
-## 📂 Project Files
-
-* **Power BI interactive dashboard**
-  <img width="1258" height="700" alt="image" src="https://github.com/user-attachments/assets/afea1506-bc93-4353-b9ed-e01574d0ced8" />
----
-
-## 📈 Key KPIs Analyzed
-
-* **Volume Spike** – Identifies sudden increases in trading volume
-* **Volatility** – Measures price fluctuation over time
-* **Daily Return** – Difference between opening and closing prices
-* **Maximum Closing Price** – Highest closing price of the stock
+## 🎯 Objectives
+- Analyze stock market data using SQL
+- Calculate key financial KPIs
+- Perform sector-wise and month-wise analysis
+- Identify trends in volume, price movement, and returns
 
 ---
 
-## 📊 Dashboard Highlights
-
-* Trend analysis of stock prices
-* Volume and volatility comparison
-* KPI cards for quick performance insights
-* Interactive slicers and filters for dynamic analysis
+## 🗂️ Dataset Description
+The dataset contains stock market information including:
+- Company Name
+- Sector Name
+- Open, High, Low, Close Prices
+- Trading Volume
+- Month-wise data
+- Daily Returns
 
 ---
 
-## 🎯 Learning Outcomes
+## 📈 Key Analysis Performed
 
-* Hands-on experience with **end-to-end data analysis**
-* Improved skills in **data visualization and dashboard design**
-* Practical understanding of **financial data analytics**
+### 🔹 KPI Calculations
+- Volume Spike
+- Volatility
+- Daily Return
+- Maximum Closing Price
+
+### 🔹 Sector-Wise Analysis
+- Total trading volume by sector
+- Comparison of open and close prices by sector
+
+### 🔹 Month-Wise Analysis
+- Open, High, Low, Close price trends
+- Monthly daily return analysis
+- High vs Low price comparison
+
+### 🔹 Company-Wise Analysis
+- Average trading volume comparison across companies
+
+---
+
+## 🛠️ SQL Concepts Used
+- Aggregate Functions (SUM, AVG, MAX)
+- GROUP BY
+- ORDER BY
+- FIELD function for month sorting
+- String formatting using CONCAT and ROUND
+
+---
+
+## 🔧 Tools & Technologies
+- MySQL
+- SQL
+
+---
+
+## 📊 Sample Insights
+- Identified high-performing sectors based on trading volume
+- Observed seasonal trends in stock prices
+- Compared company-wise trading activity
+- Evaluated market volatility using price differences
+
 ---
 
 ## 🚀 Conclusion
-
-This project demonstrates the ability to transform raw stock market data into **meaningful insights** .
-It reflects strong foundational skills in **data analysis and dashboard development**, making it suitable for **Data Analyst / Business Analyst roles**.
+This project demonstrates the practical application of SQL for financial and stock market analysis. It strengthens understanding of data aggregation, trend analysis, and KPI reporting, making it suitable for **freshers targeting Data Analyst or SQL-based roles**.
 
 ---
 
-## 👤 Author
-
+## 📬 Author
 **Kiran Bawane**
-
-📍 Aspiring Data Analyst
 
