@@ -1,4 +1,4 @@
-📊 Stock Analysis Dashboard (Power BI | SQL | Power Query)
+📊 Stock Analysis Dashboard (Power BI | SQL |Excel)
 🔍 Project Overview
 
 This project is an end-to-end Stock Market Analysis Dashboard designed using Power BI, with Power Query for data cleaning and SQL for data aggregation and validation.
@@ -67,6 +67,9 @@ Company-wise daily return trend
 Month-wise high and low price movement
 
 Interactive slicers for Month, Sector, and Company
+
+Screenshot
+<img width="1268" height="696" alt="image" src="https://github.com/user-attachments/assets/1a262e8e-7958-41c2-bd1a-815714633df6" />
 
 🧠 Business Insights
 
