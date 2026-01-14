@@ -1,79 +1,99 @@
-# 📊 Stock Market Performance & KPI Analysis Using SQL (MySQL)
+📊 Stock Analysis Dashboard (Power BI | SQL | Power Query)
+🔍 Project Overview
 
-## 📌 Project Overview
-This project focuses on analyzing stock market data using **MySQL** to extract meaningful financial insights at company, sector, and monthly levels. The analysis helps understand trading behavior, price movements, and overall market performance using SQL queries.
+This project is an end-to-end Stock Market Analysis Dashboard designed using Power BI, with Power Query for data cleaning and SQL for data aggregation and validation.
+The dashboard provides insights into stock performance, sector-wise trends, volume spikes, volatility, and monthly price movements to support data-driven decision-making.
 
----
+🛠 Tools & Technologies
 
-## 🎯 Objectives
-- Analyze stock market data using SQL
-- Calculate key financial KPIs
-- Perform sector-wise and month-wise analysis
-- Identify trends in volume, price movement, and returns
+Power BI – Dashboard creation & data visualization
 
----
+Power Query – Data cleaning & transformation
 
-## 🗂️ Dataset Description
-The dataset contains stock market information including:
-- Company Name
-- Sector Name
-- Open, High, Low, Close Prices
-- Trading Volume
-- Month-wise data
-- Daily Returns
+SQL (MySQL) – KPI calculation, aggregation & validation
 
----
+CSV / Excel – Raw stock market dataset
 
-## 📈 Key Analysis Performed
+🧹 Data Cleaning (Power Query)
 
-### 🔹 KPI Calculations
-- Volume Spike
-- Volatility
-- Daily Return
-- Maximum Closing Price
+Removed null and duplicate records
 
-### 🔹 Sector-Wise Analysis
-- Total trading volume by sector
-- Comparison of open and close prices by sector
+Corrected data types (date, numeric fields)
 
-### 🔹 Month-Wise Analysis
-- Open, High, Low, Close price trends
-- Monthly daily return analysis
-- High vs Low price comparison
+Renamed and standardized column names
 
-### 🔹 Company-Wise Analysis
-- Average trading volume comparison across companies
+Created calculated fields such as Daily Return
 
----
+Prepared clean, analysis-ready data
 
-## 🛠️ SQL Concepts Used
-- Aggregate Functions (SUM, AVG, MAX)
-- GROUP BY
-- ORDER BY
-- FIELD function for month sorting
-- String formatting using CONCAT and ROUND
+🧮 SQL Work Performed
 
----
+Aggregated data at company, sector, and month level
 
-## 🔧 Tools & Technologies
-- MySQL
-- SQL
+Calculated KPIs using SUM, AVG, MAX, ROUND
 
----
+Created:
 
-## 📊 Sample Insights
-- Identified high-performing sectors based on trading volume
-- Observed seasonal trends in stock prices
-- Compared company-wise trading activity
-- Evaluated market volatility using price differences
+Sector-wise volume summaries
 
----
+Company-wise adjusted close values
 
-## 🚀 Conclusion
-This project demonstrates the practical application of SQL for financial and stock market analysis. It strengthens understanding of data aggregation, trend analysis, and KPI reporting, making it suitable for **freshers targeting Data Analyst or SQL-based roles**.
+Month-wise returns and price movement tables
 
----
+Used SQL results to validate Power BI calculations
 
-## 📬 Author
-**Kiran Bawane**
+📈 Key KPIs
+
+Volume Spike %
+
+Sum of Daily Return
+
+Maximum Close Price
+
+Volatility Index
+
+Sector & Company Performance Metrics
+
+📊 Dashboard Features
+
+Sector-wise trading volume analysis
+
+Sector-wise open vs close comparison
+
+Company-wise adjusted close values
+
+Company-wise daily return trend
+
+Month-wise high and low price movement
+
+Interactive slicers for Month, Sector, and Company
+
+🧠 Business Insights
+
+Identify high-volume and high-risk sectors
+
+Compare company performance across months
+
+Track price volatility and return trends
+
+Support investment and market analysis decisions
+
+✅ Validation Approach
+
+SQL query outputs were cross-checked with Power BI visuals
+
+Ensured accuracy, consistency, and reliable KPIs
+
+🚀 Conclusion
+
+This project demonstrates my ability to handle the complete data analytics lifecycle — from data cleaning (Power Query) to data analysis (SQL) and interactive dashboard creation (Power BI).
+It reflects real-world practices used in Data Analyst roles.
+
+⭐ Future Enhancements
+
+Real-time stock data integration
+
+Advanced indicators (Moving Average, RSI)
+
+Predictive analysis using Python
 
