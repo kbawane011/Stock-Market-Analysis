@@ -1,10 +1,10 @@
-📊 Stock Analysis Dashboard (Power BI | SQL |Excel)
-🔍 Project Overview
+**📊 Stock Analysis Dashboard (Power BI | SQL |Excel)**
+**🔍 Project Overview**
 
 This project is an end-to-end Stock Market Analysis Dashboard designed using Power BI, with Power Query for data cleaning and SQL for data aggregation and validation.
 The dashboard provides insights into stock performance, sector-wise trends, volume spikes, volatility, and monthly price movements to support data-driven decision-making.
 
-🛠 Tools & Technologies
+**🛠 Tools & Technologies**
 
 Power BI – Dashboard creation & data visualization
 
@@ -14,7 +14,7 @@ SQL (MySQL) – KPI calculation, aggregation & validation
 
 CSV / Excel – Raw stock market dataset
 
-🧹 Data Cleaning (Power Query)
+**🧹 Data Cleaning (Power Query)**
 
 Removed null and duplicate records
 
@@ -26,7 +26,7 @@ Created calculated fields such as Daily Return
 
 Prepared clean, analysis-ready data
 
-🧮 SQL Work Performed
+**🧮 SQL Work Performed**
 
 Aggregated data at company, sector, and month level
 
@@ -42,7 +42,7 @@ Month-wise returns and price movement tables
 
 Used SQL results to validate Power BI calculations
 
-📈 Key KPIs
+**📈 Key KPIs**
 
 Volume Spike %
 
@@ -54,7 +54,7 @@ Volatility Index
 
 Sector & Company Performance Metrics
 
-📊 Dashboard Features
+**📊 Dashboard Features**
 
 Sector-wise trading volume analysis
 
@@ -68,10 +68,10 @@ Month-wise high and low price movement
 
 Interactive slicers for Month, Sector, and Company
 
-Screenshot
+**Screenshot**
 <img width="1268" height="696" alt="image" src="https://github.com/user-attachments/assets/1a262e8e-7958-41c2-bd1a-815714633df6" />
 
-🧠 Business Insights
+**🧠 Business Insights**
 
 Identify high-volume and high-risk sectors
 
@@ -81,18 +81,18 @@ Track price volatility and return trends
 
 Support investment and market analysis decisions
 
-✅ Validation Approach
+**✅ Validation Approach**
 
 SQL query outputs were cross-checked with Power BI visuals
 
 Ensured accuracy, consistency, and reliable KPIs
 
-🚀 Conclusion
+**🚀 Conclusion**
 
 This project demonstrates my ability to handle the complete data analytics lifecycle — from data cleaning (Power Query) to data analysis (SQL) and interactive dashboard creation (Power BI).
 It reflects real-world practices used in Data Analyst roles.
 
-⭐ Future Enhancements
+**⭐ Future Enhancements**
 
 Real-time stock data integration
 
