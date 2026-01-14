@@ -69,7 +69,7 @@ Month-wise high and low price movement
 Interactive slicers for Month, Sector, and Company
 
 **Screenshot**
-<img width="1268" height="696" alt="image" src="https://github.com/user-attachments/assets/1a262e8e-7958-41c2-bd1a-815714633df6" />
+<img width="1262" height="677" alt="image" src="https://github.com/user-attachments/assets/2c8ffd56-6c95-4297-ac8c-02f91a07b9e4" />
 
 **🧠 Business Insights**
 
